@@ -13,6 +13,9 @@
       crossorigin="anonymous"
     />
 
+    <!--AXIOS-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <!--CSS Link-->
     <link rel="stylesheet" href="src/style.css" />
 
@@ -24,10 +27,10 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h1>Phoenix</h1>
+            <h1 id="city"></h1>
             <ul>
               <li>Friday 04:39</li>
-              <li>Partly Cloudy</li>
+              <li id="description"></li>
             </ul>
           </div>
           <div class="row">
@@ -39,16 +42,15 @@
                   class="float-left"
                 />
                 <div class="float-left">
-                  <strong>28</strong
+                  <strong id="temperature"></strong
                   ><span class="units">°C | <a href="#">°F</a></span>
                 </div>
               </div>
             </div>
             <div class="col-6">
               <ul>
-                <li>Precipitation: 0%</li>
-                <li>Humidity: 24%</li>
-                <li>Wind: 13 km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
             </div>
           </div>
