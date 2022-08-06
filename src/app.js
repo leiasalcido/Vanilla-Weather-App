@@ -41,5 +41,4 @@ function displayTemperature(response) {
 let apiKey = "8f445a7c7ea5a3d052241482838ca33d";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Phoenix&appid=${apiKey}&units=metric`;
 
-console.log(apiUrl);
 axios.get(apiUrl).then(displayTemperature);
