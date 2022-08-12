@@ -9,6 +9,20 @@ h1 {
   line-height: 28px;
   text-align: left;
   margin-bottom: 0;
+  color: #6e6e6e;
+}
+
+button {
+  background-color: #f8f9fa;
+
+  color: white;
+  border-radius: 7px;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+.city-input {
+  max-width: 20px;
 }
 
 ul {
@@ -94,8 +108,4 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-size: 13px;
-}
-
-h1 {
-  color: #6e6e6e;
 }
