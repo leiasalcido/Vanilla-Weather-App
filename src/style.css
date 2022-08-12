@@ -95,3 +95,7 @@ li:first-letter {
 .weather-forecast-temperatures {
   font-size: 13px;
 }
+
+h1 {
+  color: #6e6e6e;
+}
